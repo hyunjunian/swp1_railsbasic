@@ -1,0 +1,8 @@
+<h1>edit</h1>
+
+<form action="/blog/update">
+    <input type="hidden" name="id" value="<%=@pp.id%>">
+    <input type="text" name="name" placeholder="이름" value="<%=@pp.writer%>"><br>
+    <textarea name="content" placeholder="내용"><%=@pp.content%></textarea>
+    <input type="submit">
+</form>
